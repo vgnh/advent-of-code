@@ -1,0 +1,32 @@
+# C# specific
+bin/
+obj/
+*.vshost.exe
+*.user
+*.suo
+*.pdb
+*.cache
+*.log
+
+# IDE-specific files
+*.db3
+*.ipk
+*.tlog
+## Visual Studio
+.vs/
+## JetBrains Rider
+.idea/
+*.sln.iml
+## VS Code
+.vscode/
+
+# Package managers
+packages/
+*.nupkg
+
+# Temporary files
+*.tmp
+*.swp
+
+# Mac OS
+.DS_Store
