@@ -9,6 +9,7 @@ class Program
         var stopwatch = Stopwatch.StartNew();
 
         Day01.Main();
+        Day02.Main();
 
         stopwatch.Stop();
         Console.WriteLine($"\nTime elapsed: {stopwatch.ElapsedMilliseconds / 1000f:F6}s");
