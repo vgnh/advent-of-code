@@ -8,4 +8,10 @@
     <StartupObject>AdventOfCode2024.Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="./resources/**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
