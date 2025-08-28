@@ -37,7 +37,7 @@ static class Day01
         return -1;
     }
 
-    public static void Main()
+    internal static void Main()
     {
         Console.WriteLine("Advent of Code 2020, Day 01");
         Console.WriteLine(Part01());
