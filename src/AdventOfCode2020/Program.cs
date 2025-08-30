@@ -10,6 +10,7 @@ class Program
 
         await Task.Run(Day01.Main);
         await Task.Run(Day02.Main);
+        await Task.Run(Day03.Main);
 
         stopwatch.Stop();
         Console.WriteLine($"\nTime elapsed: {stopwatch.ElapsedMilliseconds / 1000f:F6}s");

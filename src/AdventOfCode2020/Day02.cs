@@ -22,7 +22,6 @@ static class Day02
         }
     }
 
-
     static int Part01()
     {
         var validCount = 0;
