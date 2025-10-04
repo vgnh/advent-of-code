@@ -36,7 +36,7 @@ static class Day05
             var col = seat[9] == 'L' ? lRange : uRange;
 
             var seatId = (row * 8) + col;
-            OccupiedList[seatId] = true; // for part02
+            OccupiedList[seatId] = true; // for Part02
             if (seatId > highestSeatId)
                 highestSeatId = seatId;
         }

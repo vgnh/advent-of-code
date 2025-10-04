@@ -67,7 +67,7 @@ static class Day07
         Console.WriteLine(Part02());
     }
 
-    // Alternate but slower part01
+    // Alternate but slower Part01
     /* static int Part01()
     {
         var bagsWithSG = new HashSet<string>();
