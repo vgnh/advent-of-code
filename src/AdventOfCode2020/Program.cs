@@ -21,7 +21,7 @@ class Program
             Day09.Main,
             Day10.Main,
             Day11.Main,
-            // Day12.Main,
+            Day12.Main,
             // Day13.Main,
             // Day14.Main,
             // Day15.Main,
