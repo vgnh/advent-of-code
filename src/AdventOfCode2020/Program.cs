@@ -34,7 +34,7 @@ class Program
             Day22.Main,
             Day23.Main,
             Day24.Main,
-            // Day25.Main
+            Day25.Main
         };
         actions.ForEach(act => act.Invoke());
 
