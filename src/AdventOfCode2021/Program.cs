@@ -12,7 +12,7 @@ class Program
         {
             Day01.Main,
             Day02.Main,
-            // Day03.Main,
+            Day03.Main,
             // Day04.Main
         };
         actions.ForEach(act => act.Invoke());
