@@ -11,7 +11,7 @@ class Program
         var actions = new List<Action>
         {
             Day01.Main,
-            // Day02.Main,
+            Day02.Main,
             // Day03.Main,
             // Day04.Main
         };
