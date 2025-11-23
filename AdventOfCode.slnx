@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AdventOfCode2020/AdventOfCode2020.csproj" />
+    <Project Path="src/AdventOfCode2021/AdventOfCode2021.csproj" />
+    <Project Path="src/AdventOfCode2024/AdventOfCode2024.csproj" />
+  </Folder>
+</Solution>
