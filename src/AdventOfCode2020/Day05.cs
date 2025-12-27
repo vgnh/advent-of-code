@@ -2,7 +2,7 @@ namespace AdventOfCode2020;
 
 static class Day05
 {
-    const string FILENAME = "resources/inputs/Day05.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day05.txt";
 
     static readonly string[] SeatList = File.ReadAllLines(FILENAME).Select(x => x.Trim()).ToArray();
 

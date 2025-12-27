@@ -4,7 +4,7 @@ namespace AdventOfCode2020;
 
 static class Day04
 {
-    const string FILENAME = "resources/inputs/Day04.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day04.txt";
 
     static readonly string[] passportList = File.ReadAllText(FILENAME).Split("\n\n").Select(i => string.Join(" ", i.Split("\n"))).ToArray();
 

@@ -4,7 +4,7 @@ namespace AdventOfCode2020;
 
 static class Day16
 {
-    const string FILENAME = "resources/inputs/Day16.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day16.txt";
 
     static readonly string[] Input = File.ReadAllText(FILENAME).Split("\n\n").Select(x => x.Trim()).ToArray();
 

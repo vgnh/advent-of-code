@@ -5,7 +5,7 @@ namespace AdventOfCode2020;
 
 static class Day18
 {
-    const string FILENAME = "resources/inputs/Day18.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day18.txt";
 
     static readonly string[] Input = File.ReadAllLines(FILENAME).Select(line => line.Replace(" ", "")).ToArray();
 

@@ -2,7 +2,7 @@ namespace AdventOfCode2025;
 
 static class Day01
 {
-    const string FILENAME = "resources/inputs/Day01.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day01.txt";
 
     static readonly string[] rotations = File.ReadAllLines(FILENAME);
 

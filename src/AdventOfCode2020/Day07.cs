@@ -4,7 +4,7 @@ namespace AdventOfCode2020;
 
 static class Day07
 {
-    const string FILENAME = "resources/inputs/Day07.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day07.txt";
 
     static readonly Dictionary<string, string> RuleMap = File.ReadAllLines(FILENAME).Select(x =>
         x[0..(x.Length - 1)].Replace(" bags", "").Replace(" bag", "")

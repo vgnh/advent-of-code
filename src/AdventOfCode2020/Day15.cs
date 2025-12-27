@@ -2,7 +2,7 @@ namespace AdventOfCode2020;
 
 static class Day15
 {
-    const string FILENAME = "resources/inputs/Day15.txt";
+    static readonly string FILENAME = $"{AppContext.BaseDirectory}/resources/inputs/Day15.txt";
 
     static readonly int[] Starting = File.ReadAllText(FILENAME).Split(",").Select(int.Parse).ToArray();
 
